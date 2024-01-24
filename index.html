@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Expense Tracker</h1>
+
+      <div class="balance-container">
+        <h2>Current Balance</h2>
+        <div id="balance">Rs 10000</div>
+      </div>
+      <div class="cashflow-container">
+        <div class="income-container">
+          <h2>Income</h2>
+          <div class="income">Rs 50000</div>
+        </div>
+        <div class="expense-container">
+          <h2>Expense</h2>
+          <div class="expense">Rs 499</div>
+        </div>
+      </div>
+      <div class="transaction-container" id="transaction">
+        <h2>Transaction History</h2>
+        <ul>
+          <li>
+            Salary
+            <span class="income-amt">Rs 12000</span>
+            <button class="btnX">X</button>
+          </li>
+          <li>
+            Rent
+            <span class="expense-amt">Rs 100</span>
+            <button class="btnX">X</button>
+          </li>
+          <li>
+            Party
+            <span class="expense-amt">Rs 50</span>
+            <button class="btnX">X</button>
+          </li>
+        </ul>
+      </div>
+      <div class="form-container">
+        <h2>Add new transaction</h2>
+        <form action="#">
+          <!-- <label for="name">Name</label> -->
+          <input type="text" placeholder="Transaction name" name="" id="name" />
+          <!-- <label for="amount">Amount</label> -->
+          <input
+            type="number"
+            placeholder="Transaction amount"
+            name=""
+            id="amount"
+          />
+          <button class="btnStyle" id="incomeBtn">Add Income</button>
+          <button class="btnStyle" id="expenseBtn">Add Expense</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
