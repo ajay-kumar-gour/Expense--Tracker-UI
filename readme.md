@@ -24,8 +24,7 @@ This is a simple Expense Tracker UI created using HTML and CSS. The interface al
 - Add new transactions using the form at the bottom.
 
 ## Screenshots
-
-![Screenshot 1](/UI.png)
+![UI](https://github.com/ajay-kumar-gour/Expense--Tracker-UI/assets/153515139/191ca74f-c1f1-467e-81da-c47fce74519c)
 
 ## License
 
