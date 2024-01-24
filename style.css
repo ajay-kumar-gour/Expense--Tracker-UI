@@ -1,0 +1,191 @@
+
+
+/* variable Declaration*/
+:root{
+    --box-shadow:0px 1px 4px 1px rgba(199,199,199,1);
+    --income:green;
+    --expense:red;
+    
+ 
+}
+body{
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.app h1{
+    text-align: center;
+    letter-spacing: 3px;
+    margin:0px;
+    padding: 0px;
+ 
+}
+.app{
+    box-shadow: 12px 15px 22px 5px rgba(78,79,89,0.47);
+    -webkit-box-shadow: 12px 15px 22px 5px rgba(78,79,89,0.47);
+    -moz-box-shadow: 12px 15px 22px 5px rgba(78,79,89,0.47);
+    padding: 10px;
+    margin: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* height: 450px; */
+    /* width: 350px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 400px; */
+    
+    
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+#balance{
+ text-align: center;
+ background-color: #3ad59f;
+ font-weight: bolder;
+
+margin-bottom: 8px;
+
+}
+
+.cashflow-container{
+    display: flex;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: 5px;
+    padding-bottom: 10px;
+    
+    width:300px   ;
+    /* background-color: red; */
+   
+
+}
+/* .cashflow-container>.income-container h2{
+    text-align: center;
+} */
+
+.income-container{
+    padding-right: 20px;
+    border-right: 1px solid #cccccc;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     */
+    
+}
+.expense-container{
+    padding-left: 20px;
+}
+.income{
+    font-size: 15px;
+    color: var(--income);
+    font-weight: bold;
+    text-align: center;
+}
+.expense{
+    font-size: 15px;
+    color: var(--expense);
+    font-weight: bold;
+    text-align: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+#transaction li {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: var(--box-shadow);
+   
+ 
+}
+ul{
+    padding-inline-start: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+/* CSS */
+.btnStyle {
+  background:orange;
+    border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 16px;
+  /* min-height: 40px; */
+  /* outline: 0;
+  padding: 12px 14px; */
+  padding: 4px 4px;
+  text-align: center;
+  /* text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle; */
+}
+
+.btnStyle:hover,
+.btnStyle:active {
+  background-color: blue;
+  background-position: 0 0;
+  color: white;
+}
+
+.btnStyle:active {
+  opacity: .5;
+}
+
+.btnX{  padding: 5px 10px 5px 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btnX:hover{
+    color: red;
+    background-color: white;
+}
+#name,#amount{
+    height: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
